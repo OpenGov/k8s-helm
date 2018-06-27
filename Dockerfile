@@ -9,7 +9,7 @@ ARG BUILD_DATE
 ARG BRANCH=unknown
 ARG BUILD_URL=http://localhost
 ARG PULL_REQUEST=false
-ARG REPO_URL='https://github.com/OpenGov/k8s-kubectl'
+ARG REPO_URL='https://github.com/OpenGov/k8s-helm'
 ARG REVISION={$VCS_REF}
 LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.vcs-url="https://github.com/OpenGov/k8s-helm" \

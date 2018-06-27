@@ -1,6 +1,6 @@
 default: docker_build
 
-DOCKER_IMAGE ?= opengovorg/k8s-kubectl
+DOCKER_IMAGE ?= opengovorg/k8s-helm
 GIT_BRANCH ?= `git rev-parse --abbrev-ref HEAD`
 
 ifeq ($(GIT_BRANCH), master)
